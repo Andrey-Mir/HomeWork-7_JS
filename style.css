@@ -1,0 +1,38 @@
+table{
+    width: 100%;
+}
+table{
+    border-collapse: initial;
+}
+table.list{
+    width:20%;
+}
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left; 
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box; 
+}
+form div.buttons{
+    text-align: right;
+} 
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    margin-right: 4px;
+}
+label.error{
+    color:   red;
+    margin-left: 5px;
+}
+.hide{
+    display:none;
+}

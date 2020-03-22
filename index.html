@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Work 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();">
+                    <div>
+                        <label>ФИО</label><label class="error hide" id="fullNameError">Это поле обязательно к заполнению!</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Возраст</label>
+                        <input type="text" name="age" id="age">
+                    </div>
+                    <div>
+                        <label>Количество детей</label>
+                        <input type="text" name="children" id="children">
+                    </div>
+                    <div>
+                        <label>Должность</label>
+                        <input type="text" name="position" id="position">
+                    </div>
+                    <div>
+                        <label>Стаж</label>
+                        <input type="text" name="experience" id="experience">
+                    </div>
+                    <div>
+                        <label>Организация</label>
+                        <input type="text" name="organization" id="organization">
+                    </div>
+                    <div  class="buttons">
+                    <button>Submit</button>
+                     
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="list">
+                    <thead>
+                        <tr>
+                            <th>ФИО</th>
+                            <th>Возраст</th>
+                            <th>Количесво детей</th>
+                            <th>Должность</th>
+                            <th>Стаж</th>
+                            <th>Организация</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
